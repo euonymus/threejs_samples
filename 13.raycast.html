@@ -49,8 +49,8 @@
       scene.add(ambientLight);
       // レイキャストを作成
       const raycaster = new THREE.Raycaster();
-      canvas.addEventListener('mousemove', handleMouseMove);
       tick();
+      canvas.addEventListener('mousemove', handleMouseMove);
       // マウスを動かしたときのイベント
       function handleMouseMove(event) {
         const element = event.currentTarget;
